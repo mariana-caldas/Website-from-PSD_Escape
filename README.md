@@ -1,6 +1,7 @@
 # Website build from a PSD template (in progress)
 
-Responsive website template developed by using HTML5, CSS3, and Bootstrap 3. Built from a PSD template.
+Responsive website template developed by using HTML5, CSS3, and Bootstrap 3. 
+Built from a PSD template by using an Adobe Creative Cloud asset to extract the CSS.
 
 I used the PDS version of this mock-up:
 
