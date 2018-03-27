@@ -238,18 +238,11 @@ body{
 	text-align: left;
 }
 
-.third-section h3{
-	font-family: "BrandonGrotesqueThin", sans-serif;
-   color:  #222222;
-   font-size: 60px;
-   line-height: 75px;
-   margin-top: 9%;
-
-}
-
-.third-section span{
-	font-family: "BrandonGrotesque", sans-serif;
+.third-section p:first-child{
+    font-size: 22px;
 	font-weight: bold;
+	color:  #222222;
+
 }
 
 
