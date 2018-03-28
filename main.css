@@ -334,11 +334,16 @@ float: none;
 }
 @media only screen and (max-width: 769px) {
 *{text-align: center;}
+
+.intro{
+height: 670px;
+}
+
 .navbar-brand:last-child {
 margin-left: -10px;
 }
 .header-text h1{
-font-size: 50px;
+font-size: 40px;
 margin-top: 10px;
 }
 .header-text h3{
@@ -372,7 +377,7 @@ width: 150px;
 margin-top: 10%;
 }
 .testimonials h3{
-font-size: 50px;
+font-size: 35px;
 margin-top: 10%;
 }
 .testimonials img{
