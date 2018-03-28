@@ -1,352 +1,395 @@
 @font-face {
-  font-family: 'BrandonGrotesque';
-  src: url('fonts/BrandonGrotesque/Brandon_reg.otf');
+font-family: 'BrandonGrotesque';
+src: url('fonts/BrandonGrotesque/Brandon_reg.otf');
 }
 @font-face {
-  font-family: 'BrandonGrotesqueBold';
-  src: url('fonts/BrandonGrotesque/Brandon_bld.otf');
+font-family: 'BrandonGrotesqueBold';
+src: url('fonts/BrandonGrotesque/Brandon_bld.otf');
 }
 @font-face {
-  font-family: 'BrandonGrotesqueLight';
-  src: url('fonts/BrandonGrotesque/Brandon_light.otf');
+font-family: 'BrandonGrotesqueLight';
+src: url('fonts/BrandonGrotesque/Brandon_light.otf');
 }
 @font-face {
-  font-family: 'BrandonGrotesqueThin';
-  src: url('fonts/BrandonGrotesque/Brandon_thin.otf');
+font-family: 'BrandonGrotesqueThin';
+src: url('fonts/BrandonGrotesque/Brandon_thin.otf');
 }
 @font-face {
-  font-family: 'Cubano';
-  src: url('fonts/Cubano/Cubano-Regular.otf');
+font-family: 'Cubano';
+src: url('fonts/Cubano/Cubano-Regular.otf');
 }
-
 body{
 
 }
-
 /*Overriden Boostsptap */
 .row {
-    margin-right: 0px!important; 
-    margin-left: 0px!important;
-}
+margin-right: 0px!important;
+margin-left: 0px!important;
 
+}
+.col-md-12{
+padding-right: 0px!important;
+padding-right: 0px!important;
+}
 .navbar-default .navbar-collapse{
-	border: none!important;
+border: none!important;
 }
-
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
-    background-color: #fff!important;
+background-color: #fff!important;
 }
-
 /*------------------------------------------- */
-
 /*Header */
-
 .intro{
-	background: url('./images/Tint.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-    background-position: center;
-	width:100%;
-	height: 620px;
-    max-height: 620px;
+background: url('./images/Tint.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+width:100%;
+height: 620px;
+max-height: 620px;
 }
-
 .intro:before{
-	content: "";
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-	width:100%;
-	height: 620px;
-    max-height: 620px;  
-    background: rgba(0, 0, 0, 0.35);
+content: "";
+display: block;
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+width:100%;
+height: 620px;
+max-height: 620px;
+background: rgba(0, 0, 0, 0.35);
 }
-
 .navbar-brand{
-	margin-top: 48px;
-	color: #fff!important;
-	padding: 15px 12px!important;
-	
-}
+margin-top: 48px;
+color: #fff!important;
+padding: 15px 12px!important;
 
+}
 .navbar-brand:first-child{
-	margin-left: 50px;
+margin-left: 50px;
 }
-
-
 .navbar-brand:last-child{
-	font-size: 25px;
-	font-weight: 400;
-	line-height: 19px;
-	text-align: center;
-	font-family: "Cubano";
-	letter-spacing: 2px;
+font-size: 25px;
+font-weight: 400;
+line-height: 19px;
+text-align: center;
+font-family: "Cubano";
+letter-spacing: 2px;
 }
-
 #primary-nav{
-	margin-top:52px;
-	float: right;
-	font-family: "BrandonGrotesque", sans-serif;
-	font-size: 18px;
+margin-top:52px;
+float: right;
+font-family: "BrandonGrotesque", sans-serif;
+font-size: 18px;
 }
-
 .navbar-default{
-	background-color: transparent!important;
-	border-color: transparent!important;
-
+background-color: transparent!important;
+border-color: transparent!important;
 }
-
-
 .navbar-default .navbar-nav>li>a{
-	color: #fff!important;
-	font-family: "BrandonGrotesque", sans-serif;
-	
-}
+color: #fff!important;
+font-family: "BrandonGrotesque", sans-serif;
 
+}
 .navbar-default .navbar-nav>li>a:hover{
-	color: #fff!important;
-	opacity: 0.8;
-	
-}
+color: #fff!important;
+opacity: 0.8;
 
+}
 .header-text{
-	color:  #ffffff;
-	text-align: center;
+color:  #ffffff;
+text-align: center;
 }
-
 .header-text h3{
-	font-family: "BrandonGrotesqueThin", sans-serif;
-	font-weight: 300;
-	font-size: 32px;
-	margin-top: 115px;
+font-family: "BrandonGrotesqueThin", sans-serif;
+font-weight: 300;
+font-size: 32px;
+margin-top: 115px;
 }
-
 .header-text h1{
-	font-family: "BrandonGrotesqueBold", sans-serif;
-	font-size: 66px;
-	font-weight: 700;
-	text-transform: uppercase;
-	margin-top: 30px;
-
+font-family: "BrandonGrotesqueBold", sans-serif;
+font-size: 66px;
+font-weight: 700;
+text-transform: uppercase;
+margin-top: 30px;
 }
-
 .btn-template{
-	border: 2px solid white!important;
-	width: 240px;
-	height: 65px;
-	text-align: center;
-	background-color: transparent!important;
-	color: #fff;
-	font-family: "BrandonGrotesque", sans-serif;
-	font-size: 23px;
-	font-weight: 700;
-	text-align: center;
-	border-radius: 3px!important;
-	margin-top: 40px;
+border: 2px solid white!important;
+width: 240px;
+height: 65px;
+text-align: center;
+background-color: transparent!important;
+color: #fff;
+font-family: "BrandonGrotesque", sans-serif;
+font-size: 23px;
+font-weight: 700;
+text-align: center;
+border-radius: 3px!important;
+margin-top: 40px;
 }
-
 /*------------------------------------------- */
-
 /* First Section: Web Development */
-
 .first-section{
-	margin-top: 6%;
-	text-align: left;
+margin-top: 6%;
+text-align: left;
 }
-
 .first-section h3{
-	font-family: "BrandonGrotesqueThin", sans-serif;
-   color:  #222222;
-   font-size: 60px;
-   line-height: 75px;/* Approximation due to font substitution */
-
+font-family: "BrandonGrotesqueThin", sans-serif;
+color:  #222222;
+font-size: 60px;
+line-height: 75px;/* Approximation due to font substitution */
 }
-
 .first-section span{
-	font-family: "BrandonGrotesque", sans-serif;
-	font-weight: bold;
+font-family: "BrandonGrotesque", sans-serif;
+font-weight: bold;
 }
-
-
 .first-section p{
-	font-family: "BrandonGrotesque", sans-serif;
-	color:  #777777;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-	
+font-family: "BrandonGrotesque", sans-serif;
+color:  #777777;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
 
 }
-
 .first-section img{
-	margin-top:30%;
-	margin-bottom: 9%;
+margin-top:30%;
+margin-bottom: 9%;
 }
 /*------------------------------------------- */
-
 /* Second Section: Brand Identity */
-
 .second-section{
-	margin-top: 3%;
-	text-align: left;
-	background-color: #fafafa;
+margin-top: 3%;
+text-align: left;
+background-color: #fafafa;
 }
-
 .second-section h3{
-	font-family: "BrandonGrotesqueThin", sans-serif;
-   color:  #222222;
-   font-size: 60px;
-   line-height: 75px;
-   margin-top: 9%;
-
+font-family: "BrandonGrotesqueThin", sans-serif;
+color:  #222222;
+font-size: 60px;
+line-height: 75px;
+margin-top: 9%;
 }
-
 .second-section span{
-	font-family: "BrandonGrotesque", sans-serif;
-	font-weight: bold;
+font-family: "BrandonGrotesque", sans-serif;
+font-weight: bold;
 }
-
-
 .second-section p{
-	font-family: "BrandonGrotesque", sans-serif;
-	color:  #777777;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-
+font-family: "BrandonGrotesque", sans-serif;
+color:  #777777;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
 }
-
 .second-section p:last-child{
-	margin-bottom: 12%;
-
+margin-bottom: 12%;
 }
-
 .second-section img{
-	margin-top: 50%;
-	margin-bottom: 9%;
+margin-top: 50%;
+margin-bottom: 9%;
 }
-
 /*------------------------------------------- */
-
-/* Thirs Section: Brand Identity */
-
-.third-section{
-	margin-top: 3%;
-	text-align: left;
+/* Services */
+.services{
+margin-top: 3%;
+text-align: left;
 }
-
-.third-section p:first-child{
-    font-size: 22px;
-	font-weight: bold;
-	color:  #222222;
-
+.services p:first-child{
+font-size: 22px;
+font-weight: bold;
+color:  #222222;
 }
-
-
-.third-section p{
-	font-family: "BrandonGrotesque", sans-serif;
-	color:  #777777;
-	font-size: 18px;
-	font-weight: 400;
-	line-height: 24px;
-
+.services p{
+font-family: "BrandonGrotesque", sans-serif;
+color:  #777777;
+font-size: 18px;
+font-weight: 400;
+line-height: 24px;
 }
-
-
-.third img{
-	margin-top: 30%;
-}
-
 /*------------------------------------------- */
+/*Testimonials */
+.testimonials{
+margin-top: 3%;
+text-align: left;
+background-color: #fafafa;
+}
+.testimonials-title{
+text-align: center;
+}
+.testimonials h3{
+font-family: "BrandonGrotesqueThin", sans-serif;
+color:  #222222;
+font-size: 60px;
+margin-top: 9%;
+}
+.testimonials span{
+font-family: "BrandonGrotesque", sans-serif;
+font-weight: bold;
+}
+.testimonials p{
+font-family: "BrandonGrotesque", sans-serif;
+color:  #777777;
+font-size: 22px;
+font-weight: 400;
+}
+.testimonials-title p{
+margin-bottom: 10%;
+}
+.testimonials img{
+width:220px;
+height: 220px;
+border-radius: 50%;
+}
+.speech-bubble, .speech-bubble-second {
+position: relative;
+background: #fff;
+border: 0.5px solid #dcdcdc;
+padding:10px;
+margin:0 auto;
+}
+.speech-bubble:after,
+.speech-bubble:before {
+right: 100%;
+top: 50%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+.speech-bubble:after {
+/*border-color: rgba(255, 255, 204, 0);*/
+border-right-color: #fff;
+border-width: 15px;
+margin-top: -15px;
+}
+.speech-bubble:before {
+/*border-color: rgba(255, 204, 0, 0);*/
+border-right-color: #dcdcdc;
+border-width: 16px;
+margin-top: -16px;
+}
+.speech-bubble-second:after,
+.speech-bubble-second:before {
+right: 0;
+top: 50%;
+border: solid transparent;
+content: " ";
+height: 0;
+width: 0;
+position: absolute;
+pointer-events: none;
+}
+.speech-bubble-second:after {
+/*border-color: rgba(255, 255, 204, 0);*/
+border-left-color: #fff;
+border-width: 15px;
+margin-top: -15px;
+right: -29px;
+}
+.speech-bubble-second:before {
+/*border-color: rgba(255, 204, 0, 0);*/
+border-left-color: #dcdcdc;
+border-width: 16px;
+margin-top: -16px;
+right: -31px;
+}
+.speech-bubble p:first-child, .speech-bubble-second p:first-child{
+font-size: 26px;
+font-weight: 400;
+line-height: 28px;
+padding: 4% 6% 0 6%;
 
-
-
+}
+.speech-bubble p:last-child, .speech-bubble-second p:last-child{
+color:  #7690c5;
+font-size: 20px;
+font-weight: 400;
+line-height: 36px;
+padding: 0 6% 0 6%;
+}
+/*------------------------------------------- */
 /*Media Queries */
-
-
 @media only screen and (min-width: 1400px) and (max-width: 1600px) {
-    .container {
-    margin-right: 300px!important;
-    margin-left: 180px!important;
-	}
-
-	.second-section img {
-    width: 200px;
-	}
+.testimonials img{
+width:200px;
+height: 200px;
 }
-
-@media only screen and (min-width: 1000px) and (max-width: 1100px) {
-    .second-section img, .first-section img {
-    width: 150px;
-	}
 }
-
-
+@media only screen and (min-width: 900px) and (max-width: 1100px) {
+.second-section img, .first-section img {
+width: 150px;
+}
+.testimonials img{
+width: 130px;
+height: 130px;
+}
+}
 @media only screen and (max-width: 767px){
-	#primary-nav{
-	float: none;
-	}
-
+#primary-nav{
+float: none;
 }
-
+}
 @media only screen and (max-width: 769px) {
-
-	*{
-		text-align: center;
-	}
-
-    .navbar-brand:last-child {
-    margin-left: -15px;
-	}
-
-	.header-text h1{
-		font-size: 40px;
-		margin-top: 10px;
-	}
-
-	.header-text h3{
-		font-size: 22px;
-		margin-top: 30px;
-	}
-
-	.btn-template{
-		width: 150px;
-		height: 70px;
-		font-size: 18px;
-		margin-top: 15px;
-	}
-
-	.first-section, .second-section{
-		margin-top: 2%;
-
-	}
-
-	.navbar-brand, #primary-nav{
-		margin-top: 10px;
-	}
-
-	.first-section h3, .second-section h3{
-		font-size: 35px;
-		margin-top: 3%;
-	}
-
-	.first-section img, .second-section img{
-		margin-top: 5%;
-		margin-bottom: 0;
-
-	}
-
-	.navbar-default .navbar-nav>li>a{
-		font-size: 16px!important;
-	}
-
-	.second-section img, .first-section img {
-    width: 150px;
-	}
+*{text-align: center;}
+.navbar-brand:last-child {
+margin-left: -10px;
+}
+.header-text h1{
+font-size: 50px;
+margin-top: 10px;
+}
+.header-text h3{
+font-size: 22px;
+margin-top: 30px;
+}
+.btn-template{
+width: 150px;
+height: 70px;
+font-size: 18px;
+margin-top: 15px;
+}
+.navbar-brand, #primary-nav{
+margin-top: 10px;
+}
+.first-section h3, .second-section h3{
+font-size: 35px;
+margin-top: 3%;
+}
+.first-section img, .second-section img{
+margin-top: 10%;
+margin-bottom: 0;
+}
+.navbar-default .navbar-nav>li>a{
+font-size: 16px!important;
+}
+.second-section img, .first-section img {
+width: 150px;
+}
+.services, .second-section{
+margin-top: 10%;
+}
+.testimonials h3{
+font-size: 50px;
+margin-top: 10%;
+}
+.testimonials img{
+width:150px;
+height: 150px;
+margin-bottom: 5%;
+margin-top: 10%;
+}
+.testimonials-title p{
+margin-bottom: 5%;
+}
+.speech-bubble p:first-child, .speech-bubble-second p:first-child{
+font-size: 20px;
 
 }
-
+.speech-bubble p:last-child, .speech-bubble-second p:last-child{
+font-size: 18px;
+}
+}
 /*------------------------------------------- */
