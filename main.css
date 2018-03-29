@@ -458,7 +458,6 @@ body {
 .contact {
 	background-color: #7690c5;
 	color: #fff;
-
 }
 
 
@@ -466,7 +465,7 @@ body {
 	font-family: "BrandonGrotesqueThin", sans-serif;
 	color: #fff;
 	font-size: 60px;
-	margin-top: 7%;
+	margin-top: 12%;
 }
 
 .contact span {
@@ -475,12 +474,63 @@ body {
 }
 
 .contact h5 {
+	font-family: "BrandonGrotesqueThin", sans-serif;
+	font-size: 20px;
+	margin: 3% 0 8% 0;
+}
+.contact h6 {
 	font-family: "BrandonGrotesque", sans-serif;
-	font-size: 22px;
-	font-weight: 400;
-	text-align: center;
+	font-size: 16px;
+	margin: 3% 0;
 }
 
+.contact h6 a{
+	color: #3b5998;
+}
+
+.social-media-escape .row{
+	font-family: "BrandonGrotesqueThin", sans-serif;
+	font-size: 18px;
+    padding-bottom: 20px;
+}
+.social-media-escape .row .col-md-6{
+    padding-right: 0; 
+    padding-left: 0; 
+}
+
+.contact-form{
+	margin-top: 6%;
+}
+
+.social-media-escape, .contact-form{
+	margin-bottom: 25%;
+}
+
+hr{
+	/*//border: 1px solid #fff !important;*/
+	border-width: 0.01em;
+}
+
+input, textarea {
+padding: 25px!important;
+font-size: 18px;
+}
+
+
+.btn-template-form {
+	border: 2px solid white !important;
+	width: 200px;
+	height: 60px;
+	text-align: center;
+	background-color: transparent !important;
+	color: #fff;
+	font-family: "BrandonGrotesque", sans-serif;
+	font-size: 23px;
+	font-weight: 700;
+	text-align: center;
+	border-radius: 3px !important;
+	margin-top: 40px;
+}
 /*------------------------------------------- */
 
 
@@ -564,6 +614,10 @@ body {
 		margin-top: 10%;
 	}
 
+	.services img{
+		margin: 15px 0;
+	}
+
 	.testimonials h3 {
 		font-size: 35px;
 		margin-top: 10%;
@@ -590,6 +644,14 @@ body {
 
 	.companies img {
 		padding-bottom: 6%;
+	}
+
+	.social-media-escape img{
+		margin: 15px 0;
+	}
+
+	.social-media-escape, .contact-form{
+	margin-bottom: 15%;
 	}
 
 }
