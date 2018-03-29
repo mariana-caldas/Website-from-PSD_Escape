@@ -1,0 +1,636 @@
+@font-face {
+  font-family: 'BrandonGrotesque';
+  src: url('fonts/BrandonGrotesque/Brandon_reg.otf');
+}
+
+
+@font-face {
+  font-family: 'BrandonGrotesqueBold';
+  src: url('fonts/BrandonGrotesque/Brandon_bld.otf');
+}
+
+
+@font-face {
+  font-family: 'BrandonGrotesqueLight';
+  src: url('fonts/BrandonGrotesque/Brandon_light.otf');
+}
+
+
+@font-face {
+  font-family: 'BrandonGrotesqueThin';
+  src: url('fonts/BrandonGrotesque/Brandon_thin.otf');
+}
+
+
+@font-face {
+  font-family: 'Cubano';
+  src: url('fonts/Cubano/Cubano-Regular.otf');
+}
+
+
+body {
+  margin: 0 auto;
+}
+
+/*Overriden Boostsptap */
+
+.row {
+  margin-right: 0px !important;
+  margin-left: 0px !important;
+}
+
+.navbar-default {
+  .navbar-collapse {
+    border: none !important;
+  }
+  .navbar-toggle {
+    &:focus, &:hover {
+      background-color: #fff !important;
+    }
+  }
+}
+
+/*------------------------------------------- */
+
+/*Header */
+
+.intro {
+  background: url('./images/Tint.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 620px;
+  max-height: 620px;
+  &:before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 620px;
+    max-height: 620px;
+    background: rgba(0, 0, 0, 0.35);
+  }
+}
+
+.navbar-brand {
+  margin-top: 48px;
+  color: #fff !important;
+  padding: 15px 5px !important;
+  &:first-child {
+    margin-left: 50px;
+  }
+  &:last-child {
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+    font-family: "Cubano";
+    letter-spacing: 2px;
+  }
+}
+
+#primary-nav {
+  margin-top: 52px;
+  float: right;
+  font-family: "BrandonGrotesque", sans-serif;
+  font-size: 18px;
+}
+
+.navbar-default {
+  background-color: transparent !important;
+  border-color: transparent !important;
+  .navbar-nav > li > a {
+    color: #fff !important;
+    font-family: "BrandonGrotesque", sans-serif;
+    &:hover {
+      color: #fff !important;
+      opacity: 0.8;
+    }
+  }
+}
+
+.header-text {
+  color: #ffffff;
+  text-align: center;
+  h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+    margin-top: 115px;
+  }
+  h1 {
+    font-family: "BrandonGrotesqueBold", sans-serif;
+    font-size: 66px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 30px;
+  }
+}
+
+.btn-template {
+  border: 2px solid white !important;
+  width: 240px;
+  height: 65px;
+  text-align: center;
+  background-color: transparent !important;
+  color: #fff;
+  font-family: "BrandonGrotesque", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 3px !important;
+  margin-top: 40px;
+}
+
+/*------------------------------------------- */
+
+/*Common section margins */
+
+.first-section, .second-section, .testimonials, .companies {
+  margin-bottom: 60px;
+  margin-top: 3%;
+  text-align: left;
+}
+
+/*------------------------------------------- */
+
+/* First Section: Web Development */
+
+.first-section {
+  h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #222222;
+    font-size: 60px;
+    line-height: 75px;
+    /* Approximation due to font substitution */
+  }
+  span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+  img {
+    margin-top: 15%;
+    margin-bottom: 9%;
+  }
+}
+
+/*------------------------------------------- */
+
+/* Second Section: Brand Identity */
+
+.second-section {
+  background-color: #fafafa;
+  h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #222222;
+    font-size: 60px;
+    line-height: 75px;
+    margin-top: 9%;
+  }
+  span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+    &:last-child {
+      margin-bottom: 12%;
+    }
+  }
+  img {
+    margin-top: 40%;
+    margin-bottom: 9%;
+  }
+}
+
+/*------------------------------------------- */
+
+/* Services */
+
+.services {
+  margin-top: 5%;
+  p {
+    &:first-child {
+      font-size: 22px;
+      font-weight: bold;
+      color: #222222;
+    }
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
+  }
+}
+
+/*------------------------------------------- */
+
+/*Testimonials */
+
+.vcenter {
+  top: 25px;
+}
+
+.testimonials {
+  background-color: #fafafa;
+}
+
+.testimonials-title {
+  text-align: center;
+}
+
+.testimonials {
+  h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #222222;
+    font-size: 60px;
+    margin-top: 7%;
+  }
+  span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400;
+  }
+}
+
+.testimonials-title p {
+  margin-bottom: 7%;
+}
+
+.testimonials img {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  margin-bottom: 25%;
+}
+
+.speech-bubble, .speech-bubble-second {
+  position: relative;
+  background: #fff;
+  border: 0.5px solid #dcdcdc;
+  padding: 10px;
+  margin: 0 auto;
+}
+
+.speech-bubble {
+  &:after, &:before {
+    right: 100%;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  &:after {
+    /*border-color: rgba(255, 255, 204, 0);*/
+    border-right-color: #fff;
+    border-width: 15px;
+    margin-top: -15px;
+  }
+  &:before {
+    /*border-color: rgba(255, 204, 0, 0);*/
+    border-right-color: #dcdcdc;
+    border-width: 16px;
+    margin-top: -16px;
+  }
+}
+
+.speech-bubble-second {
+  &:after, &:before {
+    right: 0;
+    top: 50%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+  }
+  &:after {
+    /*border-color: rgba(255, 255, 204, 0);*/
+    border-left-color: #fff;
+    border-width: 15px;
+    margin-top: -15px;
+    right: -29px;
+  }
+  &:before {
+    /*border-color: rgba(255, 204, 0, 0);*/
+    border-left-color: #dcdcdc;
+    border-width: 16px;
+    margin-top: -16px;
+    right: -31px;
+  }
+}
+
+.speech-bubble p:first-child, .speech-bubble-second p:first-child {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 28px;
+  padding: 4% 6% 0 6%;
+}
+
+.speech-bubble p:last-child, .speech-bubble-second p:last-child {
+  color: #7690c5;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 36px;
+  padding: 0 6% 0 6%;
+}
+
+/*------------------------------------------- */
+
+/*Companies */
+
+.companies img {
+  padding-right: 5%;
+}
+
+/*------------------------------------------- */
+
+/*Team */
+
+.team {
+  background-color: #111111;
+}
+
+.team-title {
+  text-align: center;
+}
+
+.team {
+  h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 7%;
+  }
+  span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+  }
+  p {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #777777;
+    font-size: 22px;
+    font-weight: 400;
+    text-align: center;
+  }
+}
+
+.last-p-team p {
+  color: #fff;
+  font-size: 20px;
+  font-family: "BrandonGrotesqueThin", sans-serif;
+  margin: 2% 0 10% 0;
+}
+
+.team-title p {
+  margin-bottom: 7%;
+}
+
+.team-image {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  margin-bottom: 2%;
+}
+
+.team {
+  h4 {
+    font-family: "BrandonGrotesque", sans-serif;
+    color: #fff;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  h5 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #fff;
+    font-size: 16px;
+  }
+}
+
+.icon-team {
+  margin: 3px 3px 30px 3px;
+  &:hover {
+    width: 43px;
+    height: 43px;
+  }
+}
+
+/* Contact */
+
+.contact {
+  font-family: "BrandonGrotesque", sans-serif;
+  background-color: #7690c5;
+  color: #fff;
+  h3 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    color: #fff;
+    font-size: 60px;
+    margin-top: 12%;
+  }
+  span {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-weight: bold;
+  }
+  h5 {
+    font-family: "BrandonGrotesqueThin", sans-serif;
+    font-size: 20px;
+    margin: 3% 0 8% 0;
+  }
+  h6 {
+    font-family: "BrandonGrotesque", sans-serif;
+    font-size: 16px;
+    margin: 3% 0;
+    a {
+      color: #3b5998;
+    }
+  }
+}
+
+.social-media-escape .row {
+  font-family: "BrandonGrotesqueThin", sans-serif;
+  font-size: 18px;
+  padding-bottom: 20px;
+  .col-md-6 {
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+.contact-form {
+  font-family: "BrandonGrotesque", sans-serif;
+  margin-top: 6%;
+}
+
+.social-media-escape, .contact-form {
+  margin-bottom: 25%;
+}
+
+hr {
+  /*//border: 1px solid #fff !important;*/
+  border-width: 0.01em;
+}
+
+input, textarea {
+  padding: 25px !important;
+  font-size: 18px;
+}
+
+.btn-template-form {
+  border: 2px solid white !important;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  background-color: transparent !important;
+  color: #fff;
+  font-family: "BrandonGrotesque", sans-serif;
+  font-size: 23px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 3px !important;
+  margin-top: 40px;
+}
+
+/*------------------------------------------- */
+
+/*------------------------------------------- */
+
+/*Media Queries */
+@media only screen and (min-width: 800px) and (max-width: 1100px) {
+  .second-section img, .first-section img {
+    width: 150px;
+  }
+  .testimonials img {
+    width: 130px;
+    height: 130px;
+  }
+  .client2 {
+    margin-top: 5%;
+    margin-bottom: 4%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #primary-nav {
+    float: none;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  * {
+    text-align: center;
+  }
+  .intro {
+    height: 670px;
+  }
+  .header-text {
+    h1 {
+      font-size: 40px;
+      margin-top: 10px;
+    }
+    h3 {
+      font-size: 22px;
+      margin-top: 30px;
+    }
+  }
+  .btn-template {
+    width: 150px;
+    height: 70px;
+    font-size: 18px;
+    margin-top: 15px;
+  }
+  .navbar-brand, #primary-nav {
+    margin-top: 10px;
+  }
+  .first-section h3, .second-section h3 {
+    font-size: 35px;
+    margin-top: 3%;
+  }
+  .first-section img, .second-section img {
+    margin-top: 10%;
+    margin-bottom: 0;
+  }
+  .navbar-default .navbar-nav > li > a {
+    font-size: 16px !important;
+  }
+  .second-section img, .first-section img {
+    width: 150px;
+  }
+  .services, .second-section {
+    margin-top: 10%;
+  }
+  .services img {
+    margin: 15px 0;
+  }
+  .testimonials {
+    h3 {
+      font-size: 35px;
+      margin-top: 10%;
+    }
+    img {
+      width: 150px;
+      height: 150px;
+      margin-bottom: 5%;
+      margin-top: 10%;
+    }
+  }
+  .testimonials-title p {
+    margin-bottom: 5%;
+  }
+  .speech-bubble p:first-child, .speech-bubble-second p:first-child {
+    font-size: 20px;
+  }
+  .speech-bubble p:last-child, .speech-bubble-second p:last-child {
+    font-size: 18px;
+  }
+  .companies img {
+    padding-bottom: 6%;
+  }
+  .social-media-escape {
+    img {
+      margin: 15px 0;
+    }
+    margin-bottom: 10%;
+  }
+  .contact-form {
+    margin-bottom: 10%;
+  }
+  .btn-template-form {
+    height: 47px;
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .client2 {
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+}
+
+/*------------------------------------------- */

@@ -1,32 +1,31 @@
 @font-face {
 	font-family: 'BrandonGrotesque';
-	src: url('fonts/BrandonGrotesque/Brandon_reg.otf');
+	src: url('../fonts/BrandonGrotesque/Brandon_reg.otf');
 }
 
 @font-face {
 	font-family: 'BrandonGrotesqueBold';
-	src: url('fonts/BrandonGrotesque/Brandon_bld.otf');
+	src: url('../fonts/BrandonGrotesque/Brandon_bld.otf');
 }
 
 @font-face {
 	font-family: 'BrandonGrotesqueLight';
-	src: url('fonts/BrandonGrotesque/Brandon_light.otf');
+	src: url('../fonts/BrandonGrotesque/Brandon_light.otf');
 }
 
 @font-face {
 	font-family: 'BrandonGrotesqueThin';
-	src: url('fonts/BrandonGrotesque/Brandon_thin.otf');
+	src: url('../fonts/BrandonGrotesque/Brandon_thin.otf');
 }
 
 @font-face {
 	font-family: 'Cubano';
-	src: url('fonts/Cubano/Cubano-Regular.otf');
+	src: url('../fonts/Cubano/Cubano-Regular.otf');
 }
 
 body {
-  margin: 0 auto;
+	margin: 0 auto;
 }
-
 
 /*Overriden Boostsptap */
 .row {
@@ -46,7 +45,7 @@ body {
 
 /*Header */
 .intro {
-	background: url('./images/Tint.png');
+	background: url('../images/Tint.png');
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -149,14 +148,13 @@ body {
 
 /*Common section margins */
 
-.first-section, .second-section, .testimonials, .companies{
+.first-section, .second-section, .testimonials, .companies {
 	margin-bottom: 60px;
 	margin-top: 3%;
 	text-align: left;
-
 }
-/*------------------------------------------- */
 
+/*------------------------------------------- */
 
 /* First Section: Web Development */
 
@@ -252,7 +250,6 @@ body {
 
 .testimonials {
 	background-color: #fafafa;
-
 }
 
 .testimonials-title {
@@ -382,7 +379,6 @@ body {
 
 .team {
 	background-color: #111111;
-
 }
 
 .team-title {
@@ -409,19 +405,18 @@ body {
 	text-align: center;
 }
 
-.last-p-team p{
+.last-p-team p {
 	color: #fff;
 	font-size: 20px;
 	font-family: "BrandonGrotesqueThin", sans-serif;
 	margin: 2% 0 10% 0;
-
 }
 
 .team-title p {
 	margin-bottom: 7%;
 }
 
-.team-image{
+.team-image {
 	width: 220px;
 	height: 220px;
 	border-radius: 50%;
@@ -429,37 +424,34 @@ body {
 	margin-bottom: 2%;
 }
 
-.team h4{
+.team h4 {
 	font-family: "BrandonGrotesque", sans-serif;
 	color: #fff;
 	font-size: 19px;
 	font-weight: bold;
-
 }
 
-.team h5{
+.team h5 {
 	font-family: "BrandonGrotesqueThin", sans-serif;
 	color: #fff;
 	font-size: 16px;
 }
 
-.icon-team{
+.icon-team {
 	margin: 3px 3px 30px 3px;
-
 }
 
-.icon-team:hover{
+.icon-team:hover {
 	width: 43px;
 	height: 43px;
 }
 
 /* Contact */
-
 .contact {
+	font-family: "BrandonGrotesque", sans-serif;
 	background-color: #7690c5;
 	color: #fff;
 }
-
 
 .contact h3 {
 	font-family: "BrandonGrotesqueThin", sans-serif;
@@ -478,47 +470,47 @@ body {
 	font-size: 20px;
 	margin: 3% 0 8% 0;
 }
+
 .contact h6 {
 	font-family: "BrandonGrotesque", sans-serif;
 	font-size: 16px;
 	margin: 3% 0;
 }
 
-.contact h6 a{
+.contact h6 a {
 	color: #3b5998;
 }
 
-.social-media-escape .row{
+.social-media-escape .row {
 	font-family: "BrandonGrotesqueThin", sans-serif;
 	font-size: 18px;
-    padding-bottom: 20px;
-}
-.social-media-escape .row .col-md-6{
-    padding-right: 0; 
-    padding-left: 0; 
+	padding-bottom: 20px;
 }
 
-.contact-form{
-	font-family: "BrandonGrotesque", sans-serif !important;
+.social-media-escape .row .col-md-6 {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.contact-form {
+	font-family: "BrandonGrotesque", sans-serif;
 	margin-top: 6%;
 }
 
-.social-media-escape, .contact-form{
+.social-media-escape, .contact-form {
 	margin-bottom: 25%;
 }
 
+hr {
 
-
-hr{
 	/*//border: 1px solid #fff !important;*/
 	border-width: 0.01em;
 }
 
 input, textarea {
-padding: 25px!important;
-font-size: 18px;
+	padding: 25px !important;
+	font-size: 18px;
 }
-
 
 .btn-template-form {
 	border: 2px solid white !important;
@@ -534,13 +526,12 @@ font-size: 18px;
 	border-radius: 3px !important;
 	margin-top: 40px;
 }
-/*------------------------------------------- */
 
+/*------------------------------------------- */
 
 /*------------------------------------------- */
 
 /*Media Queries */
-
 @media only screen and (min-width:800px) and (max-width:1100px) {
 	.second-section img, .first-section img {
 		width: 150px;
@@ -617,7 +608,7 @@ font-size: 18px;
 		margin-top: 10%;
 	}
 
-	.services img{
+	.services img {
 		margin: 15px 0;
 	}
 
@@ -649,12 +640,17 @@ font-size: 18px;
 		padding-bottom: 6%;
 	}
 
-	.social-media-escape img{
+	.social-media-escape img {
 		margin: 15px 0;
 	}
 
-	.social-media-escape, .contact-form{
-	margin-bottom: 10%;
+	.social-media-escape, .contact-form {
+		margin-bottom: 10%;
+	}
+
+	.btn-template-form{
+		height: 47px;
+		font-size: 18px;
 	}
 
 }
@@ -664,8 +660,6 @@ font-size: 18px;
 		margin-top: 10%;
 		margin-bottom: 10%;
 	}
-
-
 
 }
 
