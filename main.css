@@ -499,12 +499,15 @@ body {
 }
 
 .contact-form{
+	font-family: "BrandonGrotesque", sans-serif;
 	margin-top: 6%;
 }
 
 .social-media-escape, .contact-form{
 	margin-bottom: 25%;
 }
+
+
 
 hr{
 	/*//border: 1px solid #fff !important;*/
@@ -651,7 +654,7 @@ font-size: 18px;
 	}
 
 	.social-media-escape, .contact-form{
-	margin-bottom: 15%;
+	margin-bottom: 10%;
 	}
 
 }
