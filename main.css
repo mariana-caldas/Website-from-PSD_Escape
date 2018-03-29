@@ -499,7 +499,7 @@ body {
 }
 
 .contact-form{
-	font-family: "BrandonGrotesque", sans-serif;
+	font-family: "BrandonGrotesque", sans-serif !important;
 	margin-top: 6%;
 }
 
