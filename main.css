@@ -27,11 +27,6 @@ body {
   margin: 0 auto;
 }
 
-section {
-	margin-bottom: 60px;
-	margin-top: 4%;
-	text-align: left;
-}
 
 /*Overriden Boostsptap */
 .row {
@@ -77,7 +72,7 @@ section {
 .navbar-brand {
 	margin-top: 48px;
 	color: #fff !important;
-	padding: 15px 12px !important;
+	padding: 15px 5px !important;
 }
 
 .navbar-brand:first-child {
@@ -152,6 +147,17 @@ section {
 
 /*------------------------------------------- */
 
+/*Common section margins */
+
+.first-section, .second-section, .testimonials, .companies{
+	margin-bottom: 60px;
+	margin-top: 3%;
+	text-align: left;
+
+}
+/*------------------------------------------- */
+
+
 /* First Section: Web Development */
 
 .first-section h3 {
@@ -220,7 +226,7 @@ section {
 
 /* Services */
 .services {
-	margin-top: 7%;
+	margin-top: 5%;
 }
 
 .services p:first-child {
@@ -372,6 +378,114 @@ section {
 
 /*------------------------------------------- */
 
+/*Team */
+
+.team {
+	background-color: #111111;
+
+}
+
+.team-title {
+	text-align: center;
+}
+
+.team h3 {
+	font-family: "BrandonGrotesqueThin", sans-serif;
+	color: #fff;
+	font-size: 60px;
+	margin-top: 7%;
+}
+
+.team span {
+	font-family: "BrandonGrotesque", sans-serif;
+	font-weight: bold;
+}
+
+.team p {
+	font-family: "BrandonGrotesque", sans-serif;
+	color: #777777;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+}
+
+.last-p-team p{
+	color: #fff;
+	font-size: 20px;
+	font-family: "BrandonGrotesqueThin", sans-serif;
+	margin: 2% 0 10% 0;
+
+}
+
+.team-title p {
+	margin-bottom: 7%;
+}
+
+.team-image{
+	width: 220px;
+	height: 220px;
+	border-radius: 50%;
+	border: 7px solid #fff;
+	margin-bottom: 2%;
+}
+
+.team h4{
+	font-family: "BrandonGrotesque", sans-serif;
+	color: #fff;
+	font-size: 19px;
+	font-weight: bold;
+
+}
+
+.team h5{
+	font-family: "BrandonGrotesqueThin", sans-serif;
+	color: #fff;
+	font-size: 16px;
+}
+
+.icon-team{
+	margin: 3px 3px 30px 3px;
+
+}
+
+.icon-team:hover{
+	width: 43px;
+	height: 43px;
+}
+
+/* Contact */
+
+.contact {
+	background-color: #7690c5;
+	color: #fff;
+
+}
+
+
+.contact h3 {
+	font-family: "BrandonGrotesqueThin", sans-serif;
+	color: #fff;
+	font-size: 60px;
+	margin-top: 7%;
+}
+
+.contact span {
+	font-family: "BrandonGrotesque", sans-serif;
+	font-weight: bold;
+}
+
+.contact h5 {
+	font-family: "BrandonGrotesque", sans-serif;
+	font-size: 22px;
+	font-weight: 400;
+	text-align: center;
+}
+
+/*------------------------------------------- */
+
+
+/*------------------------------------------- */
+
 /*Media Queries */
 
 @media only screen and (min-width:800px) and (max-width:1100px) {
@@ -405,10 +519,6 @@ section {
 
 	.intro {
 		height: 670px;
-	}
-
-	.navbar-brand:last-child {
-		margin-left: -10px;
 	}
 
 	.header-text h1 {
