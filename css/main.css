@@ -216,7 +216,7 @@ body {
 }
 
 .second-section img {
-	margin-top: 40%;
+	margin-top: 15%;
 	margin-bottom: 9%;
 }
 
@@ -531,9 +531,17 @@ input, textarea {
 /*------------------------------------------- */
 
 /*Media Queries */
-@media only screen and (min-width:800px) and (max-width:1100px) {
+@media only screen and (min-width:1000px) {
+	.second-section img{
+		margin-top: 40%;
+	}
+
+}
+
+
+@media only screen and (min-width:800px) and (max-width:1200px) {
 	.second-section img, .first-section img {
-		width: 150px;
+		width: 200px;
 	}
 
 	.testimonials img {
